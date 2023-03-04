@@ -1,0 +1,79 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #6394ef;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.main-wrapper {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-wrapper .to-do-wrapper {
+  min-height: 500px;
+  width: 800px;
+  background-color: #000063;
+  border-radius: 50px;
+}
+.main-wrapper .to-do-wrapper__to-do-text {
+  font-size: 3rem;
+  font-weight: 500;
+  text-align: center;
+  color: white;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+.main-wrapper .to-do-wrapper__input-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.main-wrapper .to-do-wrapper__input-wrapper--to-do-input {
+  height: 3rem;
+  width: 60%;
+  padding-left: 1rem;
+  font-size: 1.3rem;
+}
+.main-wrapper .to-do-wrapper__input-wrapper--to-do-input:focus {
+  outline: none;
+}
+.main-wrapper .to-do-wrapper__input-wrapper--add-task-btn {
+  background-color: #ff0000;
+  color: white;
+  padding: 1.2rem 3rem;
+  border: 0;
+  cursor: pointer;
+}
+.main-wrapper .to-do-wrapper__input-wrapper--add-task-btn:hover {
+  background-color: #8f0505;
+}
+.main-wrapper .to-do-wrapper__list {
+  padding-top: 2rem;
+  width: 80%;
+  margin: 0 auto;
+  padding-bottom: 2rem;
+}
+.main-wrapper .to-do-wrapper__list li {
+  list-style: none;
+  color: white;
+  padding-top: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+.main-wrapper .to-do-wrapper__list button {
+  border: 0;
+  background-color: #f3f301;
+  color: #ff0000;
+  padding: 0.5rem 2rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.main-wrapper .to-do-wrapper__list button:hover {
+  background-color: #bdbd07;
+}/*# sourceMappingURL=style.css.map */

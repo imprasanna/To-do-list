@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+  <body>
+    <div class="main-wrapper">
+      <div class="to-do-wrapper">
+        <p class="to-do-wrapper__to-do-text">To-do List</p>
+        <div class="to-do-wrapper__input-wrapper">
+          <input
+            type="text"
+            class="to-do-wrapper__input-wrapper--to-do-input"
+            id="taskInput"
+          />
+          <button
+            onclick="addTask()"
+            class="to-do-wrapper__input-wrapper--add-task-btn"
+          >
+            Add Task
+          </button>
+        </div>
+        <ul class="to-do-wrapper__list" id="list">
+          <!-- <li class="to-do-wrapper__list--item1 list-item">
+            <p>Learn JavaScript</p>
+            <button class="delete-task">Delete</button>
+          </li> -->
+          <!-- <li class="to-do-wrapper__list--item1 list-item">
+            <p>Make a to-do-list</p>
+            <button class="delete-btn">Delete</button>
+          </li>
+          <li class="to-do-wrapper__list--item1 list-item">
+            <p>Work on project</p>
+            <button class="delete-btn">Delete</button>
+          </li> -->
+        </ul>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
